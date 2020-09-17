@@ -1,0 +1,99 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "io.qameta.allure.examples.testng",
+    "children" : [ {
+      "name" : "AllureFixtureTest",
+      "children" : [ {
+        "name" : "allureFixtureTest",
+        "uid" : "4dfdbf897bf6f82f",
+        "parentUid" : "361795c9e0c98fe6b28775a05d54ec4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600349257170,
+          "stop" : 1600349257175,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "allureFixtureTest2",
+        "uid" : "91435a03cb3d7902",
+        "parentUid" : "361795c9e0c98fe6b28775a05d54ec4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600349257186,
+          "stop" : 1600349257187,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "361795c9e0c98fe6b28775a05d54ec4f"
+    }, {
+      "name" : "AllureParameterizedTest",
+      "children" : [ {
+        "name" : "allureFakeParameterizedTest",
+        "uid" : "7922fe13d720a00",
+        "parentUid" : "4545fd756d8441282694421c0addcc37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600349257193,
+          "stop" : 1600349257198,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "fakeValue" ]
+      }, {
+        "name" : "allureParameterizedTest",
+        "uid" : "73494dc217f870d",
+        "parentUid" : "4545fd756d8441282694421c0addcc37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600349257204,
+          "stop" : 1600349257205,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "First Name" ]
+      }, {
+        "name" : "allureParameterizedTest",
+        "uid" : "8944f6e64afb356e",
+        "parentUid" : "4545fd756d8441282694421c0addcc37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600349257209,
+          "stop" : 1600349257210,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Second Name" ]
+      } ],
+      "uid" : "4545fd756d8441282694421c0addcc37"
+    }, {
+      "name" : "AllureSimpleTest",
+      "children" : [ {
+        "name" : "allureSimpleTest",
+        "uid" : "579f0edebe2b270e",
+        "parentUid" : "bd5eb06c10490683167e2d480542a791",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600349257212,
+          "stop" : 1600349257233,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bd5eb06c10490683167e2d480542a791"
+    } ],
+    "uid" : "io.qameta.allure.examples.testng"
+  } ],
+  "name" : "packages"
+}
